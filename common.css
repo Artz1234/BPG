@@ -28,7 +28,6 @@ h1,p{
 }
 nav{
     display: inline;
-
 }
 nav :hover{
     background-color: #00ffff;
