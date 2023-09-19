@@ -18,7 +18,7 @@
                 background-color: rgb(10,35,55);
                 color: #00ffff;
             }
-            .downloadlink{
+            #downloadlink{
                 width: inherit;
                 background-color: #00ffff;
                 color: rgb(6,20,30);
@@ -27,6 +27,12 @@
                 color: #ffffff;
             }
         </style>
+        <script>
+            function relocate(){
+                open('https://drive.google.com/uc?export=download&id=1c8pXQsGebFVO8VhrNUWMleB1efO615wF');
+                location.href = ('downloadcont.html');
+            }
+        </script>
     </head>
     <body>
         <header>
@@ -39,7 +45,7 @@
         </header>
         <center>
             <p>Download The Latest Version of BPG</p>
-            <h1 class="download"><a class="downloadlink" href="https://drive.google.com/uc?export=download&id=1c8pXQsGebFVO8VhrNUWMleB1efO615wF"">Download</a></h1>
+            <h1 class="download"><a id="downloadlink" onclick="relocate()">Download</a></h1>
             <p><i>Windows only*</i></p>
         </center>
     </body>
