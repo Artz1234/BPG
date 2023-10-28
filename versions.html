@@ -22,10 +22,11 @@
                 border-radius: 10px;
                 text-align: center;
                 position: relative;
+                transition-duration: 500ms;
             }
             .imagedef {
                 position: absolute;
-                top: 75%;
+                top: 60%;
                 left: 50%;
                 transform: translate(-50%, -50%);
                 background-color: rgb(6, 20, 30);
@@ -36,10 +37,21 @@
                 padding: 0;
                 padding-left: 5px;
                 padding-right: 5px;
+                transition-duration: 500ms;
             }
-            .imagedef:hover{
+            .imga:hover .imagedef{
                 color: #000000;
                 background-color: #00ffff;
+            }
+            .imga:hover .image{
+                
+                border: 2px solid #00ffff;
+            }
+            .imga{
+                width: 0;
+                border-radius: 0;
+                background: none;
+                padding: 0;
             }
         </style>
     </head>
@@ -53,74 +65,95 @@
             <nav><a href="">Feedback</a></nav>
         </header>
         <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.1.png">
-            <a class="imagedef" href="version0.1.html">0.1</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.2.png">
-            <a class="imagedef" href="version0.2.html">0.2</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.3.png">
-            <a class="imagedef" href="version0.3.html">0.3</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.4.png">
-            <a class="imagedef" href="version0.4.html">0.4</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.5.png">
-            <a class="imagedef" href="version0.5.html">0.5</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.6.png">
-            <a class="imagedef" href="version0.6.html">0.6</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.7.png">
-            <a class="imagedef" href="version0.7.html">0.7</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.8.png">
-            <a class="imagedef" href="version0.8.html">0.8</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.9.png">
-            <a class="imagedef" href="version0.9.html">0.9</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.10.png">
-            <a class="imagedef" href="version0.10.html">0.10</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.11.png">
-            <a class="imagedef" href="version0.11.html">0.11</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.12.png">
-            <a class="imagedef" href="version0.12.html">0.12</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.13.png">
-            <a class="imagedef" href="version0.13.html">0.13</a>
-        </div>
-        <br/>
-        <div class="imagecontainer">
-            <img class="image" src="0.14.png">
-            <a class="imagedef" href="version0.14.html">0.14</a>
-        </div>
+        <a class="imga" href="version0.1.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.1.png">
+                <p class="imagedef">0.1</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.2.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.2.png">
+                <p class="imagedef">0.2</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.3.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.3.png">
+                <p class="imagedef">0.3</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.4.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.4.png">
+                <p class="imagedef">0.4</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.5.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.5.png">
+                <p class="imagedef">0.5</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.6.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.6.png">
+                <p class="imagedef">0.6</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.7.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.7.png">
+                <p class="imagedef">0.7</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.8.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.8.png">
+                <p class="imagedef">0.8</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.9.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.9.png">
+                <p class="imagedef">0.9</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.10.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.10.png">
+                <p class="imagedef">0.10</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.11.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.11.png">
+                <p class="imagedef">0.11</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.12.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.12.png">
+                <p class="imagedef">0.12</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.13.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.13.png">
+                <p class="imagedef">0.13</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.14.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.14.png">
+                <p class="imagedef">0.14</p>
+            </div>
+        </a>
+        <a class="imga" href="version0.15.html">
+            <div class="imagecontainer">
+                <img class="image" src="0.15.png">
+                <p class="imagedef">0.15</p>
+            </div>
+        </a>
     </body>
 </html>

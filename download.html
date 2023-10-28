@@ -10,18 +10,14 @@
             body{
                 background-color: #000000;
             }
-            .download{
-                border-radius: 10px;
-                width: fit-content;
-            }
-            .download :hover{
-                background-color: rgb(10,35,55);
-                color: #00ffff;
-            }
             #downloadlink{
                 width: inherit;
                 background-color: #00ffff;
                 color: rgb(6,20,30);
+            }
+            #downloadlink:hover{
+                background-color: rgb(6,20,30);
+                color: #00ffff;
             }
             p{
                 color: #ffffff;
@@ -45,7 +41,7 @@
         </header>
         <center>
             <p>Download The Latest Version of BPG</p>
-            <h1 class="download"><a id="downloadlink" onclick="relocate()">Download</a></h1>
+            <h1 class="download"><a id="downloadlink" onclick="relocate()" href="">Download</a></h1>
             <p><i>Windows only*</i></p>
         </center>
     </body>
